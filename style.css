@@ -3,3 +3,8 @@
     margin: 0;
     border: 0;
 }
+
+body {
+    width: 100vh;
+    background-color: black;
+}
