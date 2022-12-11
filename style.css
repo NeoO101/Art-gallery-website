@@ -3,8 +3,87 @@
     margin: 0;
     border: 0;
 }
+a {
+    text-decoration: none;
+}
 
 body {
     width: 100vh;
-    background-color: black;
+    background-color: #FFFFFF;
+}
+
+#first__presenter {
+    width: 1275px;
+    height: 800px;
+    display: flex;
+}
+#main__heading {
+    width: 514px;
+    height: 176px;
+    color: #151515;
+
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    /* or 92% */
+
+    text-transform: uppercase;
+    position: absolute;
+}
+#just__black {
+    width: 450px;
+    height: 799px;
+    background-color: #151515;
+}
+#text-and-location {
+    width: 350px;
+    height: 160px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+
+
+    /* Dark Grey */
+
+    color: #444444;
+}
+#location__button {
+    width: 260px;
+    height: 72px;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#button {
+    width: 204px;
+    height: 72px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 3.63636px;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon__arrow {
+    width: 56px;
+    height: 72px;
 }
