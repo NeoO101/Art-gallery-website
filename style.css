@@ -52,16 +52,22 @@ body {
     /* Dark Grey */
 
     color: #444444;
+
+    position: absolute;
 }
 #location__button {
     width: 260px;
     height: 72px;
-    background-color: #151515;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+    background-color: #151515;
 }
 
+#presenter__image {
+    width: 540px;
+    height: 800px;
+}
 
 #button {
     width: 204px;
@@ -78,12 +84,19 @@ body {
     /* White */
 
     color: #FFFFFF;
+    /*background-color: #151515;*/
+
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#icon__arrow {
+.icon__arrow {
     width: 56px;
     height: 72px;
+    background-color: #D5966C;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
