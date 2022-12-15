@@ -21,13 +21,15 @@ body {
     width: 514px;
     height: 176px;
     color: #151515;
+    margin-left: -285px;
+    margin-top: 189px;
 
     font-family: 'Big Shoulders Display';
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 88px;
-    /* or 92% */
+        /* or 92% */
 
     text-transform: uppercase;
     position: absolute;
@@ -54,6 +56,8 @@ body {
     color: #444444;
 
     position: absolute;
+    margin-top: 190px;
+    margin-left: 925px;
 }
 #location__button {
     width: 260px;
@@ -62,6 +66,7 @@ body {
     justify-content: center;
     
     background-color: #151515;
+    margin-top: 64px;
 }
 
 #presenter__image {
