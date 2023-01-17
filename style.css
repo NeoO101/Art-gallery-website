@@ -5,11 +5,11 @@
 }
 
 body {
+    max-width: 375px;
     height: 100vh;
-    width: 100vh;
     display: flex;
     flex-direction: column;
- 
+    
 }
 
 .intro-info {  
@@ -22,7 +22,7 @@ body {
     max-height: 240px;
 }
 .slogan {
-
+    margin-top: 32px;
     width: 343px;
     height: 110px;
 }
@@ -38,6 +38,7 @@ body {
 }
 
 .slogan-text {
+    margin-top: 32px;
     width: 343px;
     height: 110px;
 }
@@ -56,6 +57,7 @@ body {
     width: 260px;
     height: 72px;
     display: flex;
+    margin-top: 32px;
     margin-left: 16px;
 
 }
@@ -99,4 +101,120 @@ body {
     align-items: center;
 }
 
+.gallery-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#gallery-img {
+    margin-top: 120px;
+    max-width: 343px;
+    max-height: 320px;
+}
+.middle-section-title {
+    width: 343px;
+    height: 90px;
+    display: flex;
+    margin-top: 25px;
+}
+#middle-section-title {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    /* or 90% */
+
+    text-transform: uppercase;
+
+    /* Almost Black */
+
+    color: #151515;  
+    
+    
+
+}
+.gallery-text {
+    width: 343px;
+    height: 90px;
+    margin-top: 21px;
+}
+#gallery-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    /* Dark Grey */
+
+    color: #444444;
+
+
+}
+.photo-gallery-description {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#waiting-room {
+    max-width: 343px;
+    max-height: 480px;
+ 
+}
+
+#big-view {
+    max-width: 343px;
+    max-height: 200px;
+    margin-top: 16px;
+}
+.smoll__black {
+    background: #151515;
+    width: 343px;
+    height: 293px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#white-slogan {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    /* or 90% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+    width: 295px;
+    height: 90px;
+    margin-top: 48px;
+
+}
+#white-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    /* White */
+
+    color: #FFFFFF;
+    width: 295px;
+    height: 84px;
+
+    margin-top: 24px;
+}
