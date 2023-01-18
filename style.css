@@ -18,7 +18,7 @@ body {
     align-items: center;
 }
 #intro-image {
-    max-width: 375px;
+    max-width: 100%s;
     max-height: 240px;
 }
 .slogan {
@@ -218,7 +218,7 @@ body {
 
     margin-top: 24px;
 }
-footer {
+.footer-index {
     width: 375px;
     max-height: 336px;
     background: #151515;
@@ -258,4 +258,71 @@ footer {
     margin-bottom: 48px;
     display: flex;
     gap: 20px;
+}
+.location-info {
+    background: #151515;
+}
+#location-header {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    /* identical to box height, or 90% */
+
+    text-transform: uppercase;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+#street {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+
+    text-transform: uppercase;
+
+    /* Gold */
+
+    color: #D5966C;
+}
+.address {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    
+    
+    /* White */
+    
+    color: #FFFFFF;
+}
+.location-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+.location-footer {
+    width: 375px;
+    height: 336px;
+ 
+
+    /* Gold */
+
+    background: #D5966C;
 }
